@@ -1,7 +1,9 @@
 # main.py
 
-def saludar():
-    print("¡Hola desde Jenkins! Este script se está ejecutando como parte de un pipeline.")
+def sumar(a, b):
+    return a + b
 
 if __name__ == "__main__":
-    saludar()
+    resultado = sumar(3, 5)
+    print(f"El resultado de la suma es: {resultado}")
+
